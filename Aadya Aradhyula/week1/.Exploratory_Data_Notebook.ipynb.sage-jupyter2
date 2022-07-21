@@ -69,5 +69,5 @@
 {"cell_type":"markdown","id":"e1eaa3","input":"Sometimes column names have extra spaces or we can't see all of them at first, lets print them and get the shape of each to see how much data we are dealing with. <br>(#Rows, #Columns)","pos":14,"type":"cell"}
 {"cell_type":"markdown","id":"e7536e","input":"What does the './' ahead of our folder name do?\n<details> Pathing is more complex than you might think. The program does not know where to look for your file. \n    <br> Adding ./ tells the program to start looking from the location where this Notebook is located </details>","pos":9,"type":"cell"}
 {"cell_type":"markdown","id":"e962c7","input":"##### This section will start almost empty, you will add to it as you import new packages and define function.\n- I always recommend starting with 'import pandas as pd' for dataframe management\n* Here is the pandas docs - https://pandas.pydata.org/docs/reference/index.html#api\n- Otherwise you can ignore these for now","pos":4,"type":"cell"}
-{"id":0,"time":1658281533914,"type":"user"}
-{"last_load":1658348152812,"type":"file"}
+{"id":0,"time":1658419096437,"type":"user"}
+{"last_load":1658429616418,"type":"file"}

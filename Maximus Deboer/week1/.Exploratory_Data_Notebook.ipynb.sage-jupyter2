@@ -69,5 +69,5 @@
 {"cell_type":"markdown","id":"d90081","input":"## Cleaning and Merging Our Data <a class=\"anchor\" id=\"Clean\"></a>\n- Lets get rid of redundant columns, either replace or drop missing values, and do any other cleaning we might want\n- Here we will also merge our different data sources into one cohesive one","pos":22,"type":"cell"}
 {"cell_type":"markdown","id":"dbf7f0","input":"What does the './' ahead of our folder name do?\n<details> Pathing is more complex than you might think. The program does not know where to look for your file. \n    <br> Adding ./ tells the program to start looking from the location where this Notebook is located </details>","pos":9,"type":"cell"}
 {"cell_type":"markdown","id":"eb8ad8","input":"Notice: This assumes you divert your entire paycheck to student loans and there is no interest. While this gives a guidline, that does hurt the usefullness, as different areas may allow to divert different amounts. Look out for this type of error in your own work","pos":53,"type":"cell"}
-{"id":0,"time":1658266353005,"type":"user"}
+{"id":0,"time":1658426483001,"type":"user"}
 {"last_load":1658266354912,"type":"file"}

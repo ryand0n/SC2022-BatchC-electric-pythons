@@ -102,4 +102,4 @@
 {"cell_type":"markdown","id":"f6a641","input":"Alternatively you can look at just 1 row at a time by calling it similarly to a dictionary\n","pos":92,"type":"cell"}
 {"cell_type":"markdown","id":"fed745","input":"Create a few boolean variables here, then try to add them together, subtract them, multiply them and divide them to see what happens. You may get an error, and thats okay. Its important to know what can and can't be done with a type of data.","pos":19,"type":"cell"}
 {"id":0,"time":1658175584424,"type":"user"}
-{"last_load":1658354332789,"type":"file"}
+{"last_load":1658429615755,"type":"file"}
