@@ -70,4 +70,4 @@
 {"cell_type":"markdown","id":"e7536e","input":"What does the './' ahead of our folder name do?\n<details> Pathing is more complex than you might think. The program does not know where to look for your file. \n    <br> Adding ./ tells the program to start looking from the location where this Notebook is located </details>","pos":9,"type":"cell"}
 {"cell_type":"markdown","id":"e962c7","input":"##### This section will start almost empty, you will add to it as you import new packages and define function.\n- I always recommend starting with 'import pandas as pd' for dataframe management\n* Here is the pandas docs - https://pandas.pydata.org/docs/reference/index.html#api\n- Otherwise you can ignore these for now","pos":4,"type":"cell"}
 {"id":0,"time":1658419096437,"type":"user"}
-{"last_load":1658429616418,"type":"file"}
+{"last_load":1658451161023,"type":"file"}
