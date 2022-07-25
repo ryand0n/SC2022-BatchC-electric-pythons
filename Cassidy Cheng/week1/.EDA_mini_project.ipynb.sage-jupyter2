@@ -54,5 +54,5 @@
 {"cell_type":"markdown","id":"f0f523","input":"# Welcome to your first EDA \\(Exploratory Data Analysis\\)\n\n","pos":0,"type":"cell"}
 {"cell_type":"raw","id":"311b2f","input":"Write up some descriptions for your findings here....\n\nbody mass & flipper length have a proportional relationship and a positive trend, so as body mass increases flipper length also increases\n\n\n","pos":53,"type":"cell"}
 {"cell_type":"raw","id":"8e2783","input":"What do these columns mean?\nclutch completion: a character string denoting if the study nest observed with a full clutch; if nest was made by penguin or not\nculmen length: a number denoting the length of the dorsal ridge of a bird's bill (millimeters)\nculmen depth: see above\ndelta 15N: a number denoting the measure of the ratio of stable isotopes 15N:14N\ndelta 13C: a number denoting the measure of the ratio of stable isotopes 13C:12C\n","pos":11,"type":"cell"}
-{"id":0,"time":1658509457088,"type":"user"}
-{"last_load":1658509457175,"type":"file"}
+{"id":0,"time":1658781253562,"type":"user"}
+{"last_load":1658774523958,"type":"file"}

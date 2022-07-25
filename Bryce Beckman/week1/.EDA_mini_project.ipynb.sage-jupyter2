@@ -52,5 +52,5 @@
 {"cell_type":"markdown","id":"fbdff2","input":"# Welcome to your first EDA \\(Exploratory Data Analysis\\)\n\n","pos":0,"type":"cell"}
 {"cell_type":"raw","id":"478917","input":"Write up some descriptions for your findings here....\n\n\n\n\n","pos":51,"type":"cell"}
 {"cell_type":"raw","id":"60de38","input":"studyName is the expedition that the data was collected from\nSample number is the specific penguin number in a species\nSpecies is the species of penguin\nRegion is the region that the pengions live in\nIsland is the island that the penguins live on\nStage is the reproductive stage that the pengion is in\nIndividual ID is the specific ID of the pengion\nClutch Completion is if the penguin's nest is observed with a full clutch(two eggs)\nDate Egg is the date denoting the date the nest was observed with one egg\nCulmen lengths are the lengths of the dorsal ridge of the penguins' bills\nCulmen depth is the depth of the dorsal ridge of the penguins' bills\nFlipper length is the length of the penguins' flippers\nBody Mass is the body mass of the penguins\nSex is the gender of the penguin\nDelta 15 N is the number denoting the measure of the ratio of stable isotopes 15N:14N\nDelta 13 C is the number denoting the measure of the ratio of stable isotopes 13C:12C\nComments is text providing additional relevant information for the data\n\n","pos":11,"type":"cell"}
-{"id":0,"time":1658511132213,"type":"user"}
-{"last_load":1658511131000,"type":"file"}
+{"id":0,"time":1658781356198,"type":"user"}
+{"last_load":1658781356044,"type":"file"}

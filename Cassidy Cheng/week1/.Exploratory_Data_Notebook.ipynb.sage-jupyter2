@@ -1,4 +1,4 @@
-{"backend_state":"ready","kernel":"python3-ubuntu","kernel_state":"idle","kernel_usage":{"cpu":0,"memory":0},"metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":3},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython3","version":"3.8.8"}},"type":"settings"}
+{"backend_state":"init","kernel":"python3-ubuntu","kernel_state":"idle","kernel_usage":{"cpu":0,"memory":0},"metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":3},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython3","version":"3.8.8"}},"type":"settings"}
 {"cell_type":"code","exec_count":0,"id":"3b99da","input":"tuition.info()","metadata":{"vscode":{"languageId":"plaintext"}},"pos":18,"type":"cell"}
 {"cell_type":"code","exec_count":0,"id":"f3749a","input":"","pos":69,"type":"cell"}
 {"cell_type":"code","exec_count":1,"id":"af6a52","input":"","pos":5,"type":"cell"}
@@ -69,5 +69,5 @@
 {"cell_type":"markdown","id":"e427ee","input":"We still have a lot of missing data in the column 'room_and_board' and some in the 'make_world_better_place'\n<br><br>\nSince we don't care too much about room_and_board, we'll just drop that column as a whole, but for the other, we will just drop the rows that are missing that data since it is only ~3% of our dataset.","pos":30,"type":"cell"}
 {"cell_type":"markdown","id":"ea5764","input":"We notice that 'state' and 'room_and_board' are missing some data. State_code is not though.","pos":19,"type":"cell"}
 {"cell_type":"markdown","id":"ef6572","input":"Lets look at the differences, get all the unique 'state' and 'state_names' from all rows where they are not identical","pos":38,"type":"cell"}
-{"id":0,"time":1658254558172,"type":"user"}
+{"id":0,"time":1658774649973,"type":"user"}
 {"last_load":1658254559556,"type":"file"}
