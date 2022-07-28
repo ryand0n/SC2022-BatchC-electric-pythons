@@ -22,5 +22,5 @@
 {"cell_type":"markdown","id":"dc7495","input":"# Linear regression using NumPy","metadata":{"id":"K_X2fB9ta-rv"},"pos":0,"type":"cell"}
 {"cell_type":"markdown","id":"e05da7","input":"## check our results use Scikit-learn's linear regression\n\nJust to make sure we haven’t done any mistakes in our code, we can use Scikit-Learn’s Linear Regression to fit the model and compare the coefficients.\n\nhttps://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html","metadata":{"id":"cbeaQMpna-sR"},"pos":14,"type":"cell"}
 {"cell_type":"markdown","id":"fe38eb","input":"## Data Generation","metadata":{"id":"JlrQHpg8a-sI"},"pos":2,"type":"cell"}
-{"id":0,"time":1658954078767,"type":"user"}
-{"last_load":1658954078641,"type":"file"}
+{"id":0,"time":1659025270508,"type":"user"}
+{"last_load":1659025263196,"type":"file"}
