@@ -81,5 +81,5 @@
 {"cell_type":"markdown","id":"db7d95","input":"**What is this???** I encourage you and your team to read about it here: https://towardsdatascience.com/understanding-confusion-matrix-a9ad42dcfd62. You should define what true positives, true negatives, false positives, and false negatives represent for this scenario. \n\nDiscuss what other  findings you can take away, and talk with your instructor about metrics like accuracy, precision and recall!","metadata":{"id":"mCR5MW5gp0ni"},"pos":55,"type":"cell"}
 {"cell_type":"markdown","id":"e01856","input":"**TODO:** can you look at the shape of the x_train, x_test, y_train, and y_test columns? Why does the shape of these columns make sense? ","metadata":{"id":"rcQ-PJQF9XSA"},"pos":37,"type":"cell"}
 {"cell_type":"markdown","id":"e58f95","input":"### Code Your Own Machine Learning Model\n\nIt's time for us to create our own classifier. Let's go with an [SVM](https://www.youtube.com/watch?v=_YPScrckx28). We will do the first step for you.\n\nI know it was a lot of information in the last section, but the code is *basically* the same. Since our data is already split, you will follow the same steps to fit your model, make some predictions, evaluate the performance, and visualize your confusion matrix.","metadata":{"id":"ObvQ_3pPmPBf"},"pos":57,"type":"cell"}
-{"id":0,"time":1659033031762,"type":"user"}
-{"last_load":1659033031581,"type":"file"}
+{"id":0,"time":1659113447211,"type":"user"}
+{"last_load":1659113445835,"type":"file"}

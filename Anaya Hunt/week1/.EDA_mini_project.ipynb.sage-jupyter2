@@ -61,5 +61,5 @@
 {"cell_type":"markdown","id":"e9aca5","input":"Conditions in pandas work just like `if` statements in python. \n\n**TODO: Can you tell me which species of penguin can have a flipper length greater than or equal to 230 by using conditions in pandas?**\n\n","pos":27,"type":"cell"}
 {"cell_type":"raw","id":"782a14","input":"Write up some descriptions for your findings here....\n\n\n\n\n","pos":60,"type":"cell"}
 {"cell_type":"raw","id":"c272a9","input":"What do these columns mean?\n\nA clutch refers to a nest of eggs within the data set if the nest was made by a penguin.\n\n\n","pos":11,"type":"cell"}
-{"id":0,"time":1658775150220,"type":"user"}
-{"last_load":1658775034238,"type":"file"}
+{"id":0,"time":1659116671580,"type":"user"}
+{"last_load":1659116670966,"type":"file"}

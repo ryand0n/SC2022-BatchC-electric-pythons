@@ -1,0 +1,5 @@
+{"backend_state":"running","connection_file":"/projects/0bcf82e6-7441-4432-a339-19b67c22cc5c/.local/share/jupyter/runtime/kernel-f8609d4c-d2ef-43e9-9eb6-fcd403d1831d.json","kernel":"ds_env","kernel_error":"","kernel_state":"idle","trust":true,"type":"settings"}
+{"end":1659117380611,"exec_count":1,"id":"0f1bad","input":"import pandas as pd\nimport numpy as np\n","kernel":"ds_env","pos":0,"start":1659117380298,"state":"done","type":"cell"}
+{"end":1659117387080,"exec_count":2,"id":"fd9390","input":"df = pd.read_csv('cleaned_data')","kernel":"ds_env","pos":1,"start":1659117386977,"state":"done","type":"cell"}
+{"id":"97db7a","input":"","pos":2,"type":"cell"}
+{"last_load":1659117362205,"type":"file"}
