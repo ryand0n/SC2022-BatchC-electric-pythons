@@ -107,5 +107,5 @@
 {"cell_type":"code","exec_count":96,"id":"190026","input":"neigh.score(x_test, y_test)","output":{"0":{"data":{"text/plain":"0.944005943522495"},"exec_count":96,"output_type":"execute_result"}},"pos":96,"type":"cell"}
 {"cell_type":"code","exec_count":97,"id":"337bdd","input":"plt.figure(figsize=(10,5))\nplt.plot(y_test, y_test, '--')\n#plt.scatter(y_test,y_test, c='green')\nplt.scatter(y_test, y_hat, c='orange')\nplt.xlabel('x', fontsize = 20)\nplt.ylabel('y', fontsize = 20)\nplt.title('Predicted Results compared to Actual Results')\nplt.grid('on')\nplt.show()","output":{"0":{"data":{"image/png":"4b8352a4d12dc5a81b068537552e82658f99bd6c","text/plain":"<Figure size 720x360 with 1 Axes>"},"exec_count":97,"metadata":{"needs_background":"light"},"output_type":"execute_result"}},"pos":97,"type":"cell"}
 {"cell_type":"markdown","id":"a5cb75","input":"Our dataset is from: [https://www.kaggle.com/datasets/jackogozaly/data\\-science\\-and\\-stem\\-salaries?datasetId=1640011&sortBy=voteCount](https://www.kaggle.com/datasets/jackogozaly/data-science-and-stem-salaries?datasetId=1640011&sortBy=voteCount)\n","pos":1,"type":"cell"}
-{"id":0,"time":1659114108948,"type":"user"}
-{"last_load":1659114107125,"type":"file"}
+{"id":0,"time":1659378980953,"type":"user"}
+{"last_load":1659378978890,"type":"file"}
