@@ -27,11 +27,12 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#About Us" style="color:green;">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Visualizations" style="color:green;">Visualizations</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Models" style="color:green;">Models</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Data Science Pipeline" style="color:green;">Pipeline</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#conclusion" style="color:green;">Conclusion</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#team" style="color:green;">Team</a></li>
                     </ul>
                 </div>
             </div>
@@ -39,23 +40,22 @@
         <!-- Masthead-->
         <header class="masthead">
             <div class="container">
-                <div class="masthead-subheading">STEM Career Salary Predictor</div>
-                <div class="masthead-heading text-uppercase">Click below for more info on our website!</div>
-                <a class="btn btn-primary btn-xl text-uppercase" href="#services">Tell Me More</a>
+                <div class="masthead-subheading">The Electric Pythons</div>
+                <div class="masthead-heading text-uppercase">STEM Salary Prediction AI</div>
+                <a class="btn btn-primary btn-xl text-uppercase" href="#About Us">How it works</a>
             </div>
         </header>
         <!-- Services-->
-        <section class="page-section" id="services">
+        <section class="page-section" id="About Us">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">About Us</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
                 <div class="row text-center">
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
                             <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                            <i class="fas fa- fa-stack-1x fa-inverse"></i>
                         </span>
                         <h4 class="my-3">What Is Our MVP?</h4>
                         <p class="text-muted">This website takes user input data and returns estimated salary as STEM worker.</p>
@@ -74,7 +74,7 @@
                             <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
                         </span>
                         <h4 class="my-3">Our Findings</h4>
-                        <p class="text-muted">What you will see on our website is the total yearly salary of STEM Workers on a histogram also, Software Engineer Base Salary per State on a histogram. Gender and Salaries providing information on higher base salary between both genders. A pie chart giving visualization on the most common job titles. A histogram on job titles and their average base salaries and more models on Linear Regression, the output, Nearest Neighbors Regression, the output,and finally our findings on information on Decision Trees Regression and the output.  
+                        <p class="text-muted">What you will see on our website is the total yearly salary of STEM Workers on a histogram also, Software Engineer Base Salary per State on a histogram. Gender and Salaries providing information on higher base salary between both genders. A pie chart giving visualization on the most common job titles. A histogram on job titles and their average base salaries and more models on Linear Regression, Nearest Neighbors Regression, and finally our findings on information on Decision Trees Regression.  
                     </div>
                 </div>
             </div>
@@ -83,124 +83,92 @@
         <section class="page-section bg-light" id="Visualizations">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Visualizations and Models</h2>
-                    <h3 class="section-subheading text-muted">Includes graphs and models of machine learning to project user salary.
-</h3>
+                    <h2 class="section-heading text-uppercase">Visualizations</h2>
+                    <h3 class="section-subheading text-muted">Includes graphs of dataset to project user salary. </h3>
                 </div>
-                <div class="row">
-                    <div class="col-lg-4 col-sm-6 mb-4">
                         <!-- Portfolio item 1-->
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class=""></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/1.jpg" alt="..." />
-                            </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Total Yearly Salary Of STEM Workers</div>
-                                <div class="portfolio-caption-subheading text-muted">Histogram</div>
+                                <div class="portfolio-caption-subheading text-muted">This is a Histogram that represents the annual salary of a STEM workers. The colors differentiate between whether the worker is in a top-15 company or not.</div>
+                              <iframe width=1000 height=600 title="Total Yearly Salary of STEM Workers" src='total_year_salary.html'>
+                              </iframe>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 2-->
+                       <!-- Portfolio item 2-->
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
-                                <img class="img-fluid" src="assets/img/portfolio/2.jpg" alt="..." />
-                            </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Software Engineer Base Salary per State </div>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-subheading text-muted">Histogram</div>
+                                <div class="portfolio-caption-heading">Software Engineer Base Salary per State                                     </div>
+                                <div class="portfolio-caption-subheading text-muted">This is a Histogram that shows the base salary of most common STEM job position, software engineer. Sorted by different states, with the three most common states (CA, WA, and NY) as well as ‘other’ encompassing the other states in the dataframe. </div>
+                              <iframe width=1000 height=600 title="Software Engineer Base Salary per State" src='softeng_base_salary.html'>
+                              </iframe>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 4-->
+                       </div>
+                     <!-- Portfolio item 3-->
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
-                                <img class="img-fluid" src="assets/img/portfolio/4.jpg" alt="..." />
-                            </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Most Common Job Titles</div>
-                                <div class="portfolio-caption-subheading text-muted">Pie Chart</div>
+                                <div class="portfolio-caption-subheading text-muted">This pie chart shows the distribution of STEM job positions to show the most popular job positions in the STEM industry and their percentages.</div>
+                             <iframe width=1000 height=600 title="Most Common Job Titles" src='job_titles.html'>
+                              </iframe>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
+                          <!-- Portfolio item 4-->
+                        <div class="portfolio-item">
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Job Title and Their Average Base Salary</div>
+                                <div class="portfolio-caption-subheading text-muted">This graph shows the average base salaries of the different job positions in the STEM industries. It also makes it easy to tell which are the higher paying jobs.</div>
+                              <iframe width=1000 height=600 title="Job Title and Their Average Base Salary" src='mean_salaries_hist.html'>
+                              </iframe>
+                            </div>
+                        </div>
                         <!-- Portfolio item 5-->
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
-                                <img class="img-fluid" src="..." alt="..." />
-                            </a
-                         <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Job Title and Their Average Base Salaries </div>
-                                <div class="portfolio-caption-subheading text-muted">Bar Graph</div>
-                          </div>
-                        </div>
-                    </div>
-                      <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 1-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
-                                <div class="portfolio-hover">
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/1.jpg" alt="..." />
-                            </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Gender and Salaries</div>
-                                <div class="portfolio-caption-subheading text-muted">Scatter Plot</div>
+                                <div class="portfolio-caption-subheading text-muted">This is a Scatter Plot that shows the trend of base salary to total yearly compensation based on gender.</div>
+                              <iframe width=1000 height=600 title="Gender and Salaries" src='gender_scat.html'>
+                              </iframe>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
-                        <!-- Portfolio item 6-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
-                                <div class="portfolio-hover">
-                                </div>
-                                <img class="img-fluid" src="..." alt="..." />
-                            </a>
-                          <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Linear Regression Model</div>
-                                <div class="portfolio-caption-subheading text-muted">The linear regression model shows the linear relationship between the x-variable, the input data and the y-variable, which in this case is the total yearly compensation of the STEM workers within the database. This essentially finds the line that best fits the data points used to model a target prediction value.</div>
-                            </div>
-                        </div>
-                    </div>
-                      <div class="col-lg-4 col-sm-6 mb-4">
+           <!-- Portfolio Grid-->
+        <section class="page-section bg-light" id="Models">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Models</h2>
+                    <h3 class="section-subheading text-muted">Includes models of our results of our testing. </h3>
+                </div>
                         <!-- Portfolio item 1-->
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
-                                <div class="portfolio-hover">
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/1.jpg" alt="..." />
-                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Linear Regression Model</div>
+                                <div class="portfolio-caption-subheading text-muted">The linear regression model shows the linear relationship between the x-variable, the input data and the y-variable, which in this case is the total yearly compensation of the STEM workers within the database. This essentially finds the line that best fits the data points used to model a target prediction value. The Mean Squared Error(MSE) was 1,248,612,167 and accuracy was .9257.</div>
+                              <iframe width=1000 height=600 title="Linear Regression Model" src='lin_regression_mod.html'>
+                              </iframe>
+                            </div>
+                        </div>
+                       <!-- Portfolio item 2-->
+                        <div class="portfolio-item">
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Nearest Neighbors Regression Model</div>
-                                <div class="portfolio-caption-subheading text-muted">KNN uses “feature similarity” in the input data to predict the value of any new input data, assigning it based on how similar the new data point is to points in the training set. The similarity is usually calculated with distance functions.</div>
+                                <div class="portfolio-caption-subheading text-muted">KNN uses “feature similarity” in the input data to predict the value of any new input data, assigning it based on how similar the new data point is to points in the training set. The similarity is usually calculated with distance functions. The MSE was 909,270,631.83 and accuracy was .9440.</div>
+                              <iframe width=1000 height=600 title="Nearest Neighbors Regression Model" src='Nearest_Neighbors_Regression.html'>
+                              </iframe>
                             </div>
-                        </div>
-                    </div>
-                      <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 1-->
+                       </div>
+                     <!-- Portfolio item 3-->
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
-                                <div class="portfolio-hover">
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/1.jpg" alt="..." />
-                            </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Decision Trees Regression Model</div>
-                                <div class="portfolio-caption-subheading text-muted">The Decision Tree method used for regression predicts the value of a target variable by breaking down a dataset into subsets to organize the data into different nodes which gets incrementally developed. </div>
+                                <div class="portfolio-caption-subheading text-muted">The Decision Tree method used for regression predicts the value of a target variable by breaking down a dataset into subsets to organize the data into different nodes which gets incrementally developed. The MSE was 2,054,249,984.56 and accuracy was .8735.</div>
+                             <iframe width=1000 height=600 title="Decision Trees Regression Model" src='Decision_Tree_Regression.html'>
+                              </iframe>
                             </div>
                         </div>
-                    </div>
                 </div>
-            </div>
-        </section>
         <!-- About-->
-        <section class="page-section" id="about">
+        <section class="page-section" id="Data Science Pipeline">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Data Science Pipeline</h2>
@@ -285,133 +253,71 @@
                 </ul>
             </div>
         </section>
+    <!-- Conclusion-->
+        <section class="page-section" id="conclusion">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Results and Conclusion</h2>
+                    <p class="text-muted"> The results of our models are Linear Regression with MSE=1,248,612,167 and accuracy .9257. Nearest Neighbor MSE=909,270,631.83 and accuracy is .9440. With Decision Tree our MSE=2,050,485,979.87 and accuracy is .8737. Our website provides the best salary prediction for STEM workers with good accuracy on our models and only the best when coming to our site. With this information, we can conclude that our AI can accurately give you the best job salary prediction, the way it does this is by reading the information you give it. For example, someone from New York will assign that as their location along with their degree of education, Race and more. The way the AI runs that information by filling in a list of 1's and 0's based on what info you have put in. With that information, Our AI will estimate the total salary you can earn. Some struggles we had in the process of creating this project was figuring out the coding with most of us having little to no experience in coding and making sure the code we were putting in worked and saying we ran into some syntax errors would be an understatement. While this was a challenge to figure out and still can be at times, after a while we got the hang of what we were missing we can now do some basic coding. We brainstormed as to what could be improved to our AI and its purpose. When our team was asked, answers varied from; more data points to make our AI more accurate and be better versed in python as a whole. </p>
+              </div>
+             </div>
+          </section>
         <!-- Team-->
         <section class="page-section bg-light" id="team">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="..." />
-                            <h4>Parveen Anand</h4>
-                            <p class="text-muted">Lead Designer</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Twitter Profile"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                            <img class="mx-auto rounded-circle" src="nyc pics.jpg" alt="..." />
+                            <h4>Ryan Don</h4>
+                            <p class="text-muted">Product Manager</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="..." />
-                            <h4>Diana Petersen</h4>
-                            <p class="text-muted">Lead Marketer</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Twitter Profile"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                            <img class="mx-auto rounded-circle" src="Cassidy Cheng.jpg" alt="..." />
+                            <h4>Cassidy Cheng</h4>
+                            <p class="text-muted">Web Developer</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="..." />
-                            <h4>Larry Parker</h4>
+                            <img class="mx-auto rounded-circle" src="Anaya.jpg" alt="..." />
+                            <h4>Anaya Hunt</h4>
+                            <p class="text-muted">Back-End Developer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+            </div>
+            <div class="row">
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="Bryce.jpg" alt="..." />
+                            <h4>Bryce Beckman</h4>
                             <p class="text-muted">Lead Developer</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Twitter Profile"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="unnamed (1).jpg" alt="..." />
+                            <h4>Aadya Aradhyula</h4>
+                            <p class="text-muted">Architect</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="messy hair.jpg" alt="..." />
+                            <h4>Maximus Deboer</h4>
+                            <p class="text-muted">Front-End Developer</p>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p></div>
-                </div>
             </div>
-        </section>
-        <!-- Clients-->
-        <div class="py-5">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/microsoft.svg" alt="..." aria-label="Microsoft Logo" /></a>
-                    </div>
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/google.svg" alt="..." aria-label="Google Logo" /></a>
-                    </div>
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/facebook.svg" alt="..." aria-label="Facebook Logo" /></a>
-                    </div>
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/ibm.svg" alt="..." aria-label="IBM Logo" /></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Contact-->
-        <section class="page-section" id="contact">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Contact Us</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-                <!-- * * * * * * * * * * * * * * *-->
-                <!-- * * SB Forms Contact Form * *-->
-                <!-- * * * * * * * * * * * * * * *-->
-                <!-- This form is pre-integrated with SB Forms.-->
-                <!-- To make this form functional, sign up at-->
-                <!-- https://startbootstrap.com/solution/contact-forms-->
-                <!-- to get an API token!-->
-                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                    <div class="row align-items-stretch mb-5">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <!-- Name input-->
-                                <input class="form-control" id="name" type="text" placeholder="Your Name *" data-sb-validations="required" />
-                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-                            </div>
-                            <div class="form-group">
-                                <!-- Email address input-->
-                                <input class="form-control" id="email" type="email" placeholder="Your Email *" data-sb-validations="required,email" />
-                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-                            </div>
-                            <div class="form-group mb-md-0">
-                                <!-- Phone number input-->
-                                <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" data-sb-validations="required" />
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group form-group-textarea mb-md-0">
-                                <!-- Message input-->
-                                <textarea class="form-control" id="message" placeholder="Your Message *" data-sb-validations="required"></textarea>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Submit success message-->
-                    <!---->
-                    <!-- This is what your users will see when the form-->
-                    <!-- has successfully submitted-->
-                    <div class="d-none" id="submitSuccessMessage">
-                        <div class="text-center text-white mb-3">
-                            <div class="fw-bolder">Form submission successful!</div>
-                            To activate this form, sign up at
-                            <br />
-                            <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                        </div>
-                    </div>
-                    <!-- Submit error message-->
-                    <!---->
-                    <!-- This is what your users will see when there is-->
-                    <!-- an error submitting the form-->
-                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                    <!-- Submit Button-->
-                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Send Message</button></div>
-                </form>
-            </div>
-        </section>
         <!-- Footer-->
         <footer class="footer py-4">
             <div class="container">
