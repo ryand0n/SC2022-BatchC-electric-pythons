@@ -26,5 +26,5 @@
 {"cell_type":"markdown","id":"eb2fc5","input":"### Results and Evaluation\nOne way to see if the model is pretty good is the coefficient of determination (R^2) using the `score()` function. You can read about it here: https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html#sklearn.linear_model.LinearRegression.score.\n\nAnother way is to compare our mean absolute error (MAE). MAE measures the prediction error. Mathematically, it is the average absolute difference between observed and predicted outcomes, MAE = mean(abs(observeds - predicteds)). MAE is less sensitive to outliers compared to RMSE.\n\nRead some more about regression model metrics [here](http://www.sthda.com/english/articles/38-regression-model-validation/158-regression-model-accuracy-metrics-r-square-aic-bic-cp-and-more/).","metadata":{"id":"14TdY4RGr-RG"},"pos":22,"type":"cell"}
 {"cell_type":"markdown","id":"f737dd","input":"### Creating and Fitting","metadata":{"id":"e1m-wKeYsFEl"},"pos":17,"type":"cell"}
 {"cell_type":"markdown","id":"f77ea5","input":"# Data Loading, Cleaning, and Setup","metadata":{"id":"JlrQHpg8a-sI"},"pos":2,"type":"cell"}
-{"id":0,"time":1659481012063,"type":"user"}
-{"last_load":1659481012836,"type":"file"}
+{"id":0,"time":1659556724070,"type":"user"}
+{"last_load":1659556361268,"type":"file"}

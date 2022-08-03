@@ -98,5 +98,5 @@
 {"cell_type":"code","exec_count":96,"id":"c24d2e","input":"#Plot Findings\nplt.figure(figsize=(10,5))\nplt.plot(y_test, y_test, '--')\n#plt.scatter(y_test,y_test, c='green')\nplt.scatter(y_test, y_hat, c='orange')\nplt.xlabel('x', fontsize = 20)\nplt.ylabel('y', fontsize = 20)\nplt.title('Predicted Results compared to Actual Results')\nplt.grid('on')\nplt.show()","output":{"0":{"data":{"image/png":"a1d5cfbc4f38b684ad0a04953fc1be67c438315d","text/plain":"<Figure size 720x360 with 1 Axes>"},"exec_count":96,"metadata":{"needs_background":"light"},"output_type":"execute_result"}},"pos":98,"type":"cell"}
 {"cell_type":"markdown","id":"959725","input":"Our dataset is from: [https://www.kaggle.com/datasets/jackogozaly/data\\-science\\-and\\-stem\\-salaries?datasetId=1640011&sortBy=voteCount](https://www.kaggle.com/datasets/jackogozaly/data-science-and-stem-salaries?datasetId=1640011&sortBy=voteCount)\n","pos":2,"type":"cell"}
 {"cell_type":"markdown","id":"c1323b","input":"**Exploring Our Data**\n\n","pos":36,"type":"cell"}
-{"id":0,"time":1659546368401,"type":"user"}
+{"id":0,"time":1659551417361,"type":"user"}
 {"last_load":1659546366330,"type":"file"}

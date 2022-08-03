@@ -69,5 +69,5 @@
 {"cell_type":"code","exec_count":8,"id":"864437","input":"fig=px.pie(popular_title,values='company',names='title',title='Job Positions in the Data Science and STEM Feild') fig.show()x","output":{"0":{"ename":"SyntaxError","evalue":"invalid syntax (3559243612.py, line 1)","output_type":"error","traceback":["\u001b[0;36m  Input \u001b[0;32mIn [8]\u001b[0;36m\u001b[0m\n\u001b[0;31m    fig=px.pie(popular_title,values='company',names='title',title='Job Positions in the Data Science and STEM Feild') fig.show()x\u001b[0m\n\u001b[0m                                                                                                                      ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"]}},"pos":43,"type":"cell"}
 {"cell_type":"code","exec_count":9,"id":"be68c3","input":"df=df.drop(['Race'],axis=1)","pos":8,"type":"cell"}
 {"cell_type":"markdown","id":"f806c7","input":"Our dataset is from: [https://www.kaggle.com/datasets/jackogozaly/data\\-science\\-and\\-stem\\-salaries?datasetId=1640011&sortBy=voteCount](https://www.kaggle.com/datasets/jackogozaly/data-science-and-stem-salaries?datasetId=1640011&sortBy=voteCount)\n","pos":1,"type":"cell"}
-{"id":0,"time":1659116486502,"type":"user"}
-{"last_load":1659116485851,"type":"file"}
+{"id":0,"time":1659562682427,"type":"user"}
+{"last_load":1659562682913,"type":"file"}
