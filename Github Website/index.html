@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title> - Start Bootstrap Theme</title>
+        <title> - STEM prediction </title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="https://static.wixstatic.com/media/12b467_a4ceef0f338c41c7885cb083ea36a00f~mv2_d_1742_1743_s_2.png/v1/fill/w_85,h_85,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ai%20camp%20logo.png" />
         <!-- Font Awesome icons (free version)-->
@@ -33,6 +33,7 @@
                         <li class="nav-item"><a class="nav-link" href="#Data Science Pipeline" style="color:green;">Pipeline</a></li>
                         <li class="nav-item"><a class="nav-link" href="#conclusion" style="color:green;">Conclusion</a></li>
                         <li class="nav-item"><a class="nav-link" href="#team" style="color:green;">Team</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact" style="color:green;">Predictor</a></li>
                     </ul>
                 </div>
             </div>
@@ -42,7 +43,7 @@
             <div class="container">
                 <div class="masthead-subheading">The Electric Pythons</div>
                 <div class="masthead-heading text-uppercase">STEM Salary Prediction AI</div>
-                <a class="btn btn-primary btn-xl text-uppercase" href="#About Us">How it works</a>
+                <a class="btn btn-primary btn-xl text-uppercase" href="#contact">Use our AI</a>
             </div>
         </header>
         <!-- Services-->
@@ -55,15 +56,15 @@
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
                             <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa- fa-stack-1x fa-inverse"></i>
+                            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
                         </span>
                         <h4 class="my-3">What Is Our MVP?</h4>
-                        <p class="text-muted">This website takes user input data and returns estimated salary as STEM worker.</p>
+                        <p class="text-muted">This website takes user input data and returns estimated salary as STEM workers.</p>
                     </div>
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
                             <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+                            <i class="fas fa-brain fa-stack-1x fa-inverse"></i>
                         </span>
                         <h4 class="my-3">Why Use Our Product?</h4>
                         <p class="text-muted">We attempt to make estimating your salary effortless based on your experience, education level,  and specific career in STEM fields. This can be useful to professionals in determining career prospects, as well as those looking into STEM as a profession, to model a possible salary.
@@ -71,7 +72,7 @@
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
                             <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+                            <i class="fa fa-money-bill fa-stack-1x fa-inverse"></i>
                         </span>
                         <h4 class="my-3">Our Findings</h4>
                         <p class="text-muted">What you will see on our website is the total yearly salary of STEM Workers on a histogram also, Software Engineer Base Salary per State on a histogram. Gender and Salaries providing information on higher base salary between both genders. A pie chart giving visualization on the most common job titles. A histogram on job titles and their average base salaries and more models on Linear Regression, Nearest Neighbors Regression, and finally our findings on information on Decision Trees Regression.  
@@ -99,7 +100,7 @@
                         <div class="portfolio-item">
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Software Engineer Base Salary per State                                     </div>
-                                <div class="portfolio-caption-subheading text-muted">This is a Histogram that shows the base salary of most common STEM job position, software engineer. Sorted by different states, with the three most common states (CA, WA, and NY) as well as ‘other’ encompassing the other states in the dataframe. </div>
+                                <div class="portfolio-caption-subheading text-muted">This is a Histogram that shows the base salary of most common STEM job position, software engineers. Sorted by different states, with the three most common states (CA, WA, and NY) as well as ‘other’ encompassing the other states in the dataframe. </div>
                               <iframe width=1000 height=600 title="Software Engineer Base Salary per State" src='softeng_base_salary.html'>
                               </iframe>
                             </div>
@@ -318,6 +319,107 @@
                 </div>
                 <div class="row">
             </div>
+       <!--Form-->
+       <section class="page-section" id="contact">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Salary Predictor</h2>
+                    <h3 class="section-subheading text-muted">Please enter your data down below</h3>
+                </div>
+                <form action="#" id="predictionForm" method="post">
+                    <div class="d-flex justify-content-center">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <!-- Company input-->
+                                <input class="form-control" id="company" name ="company" type="text" placeholder="Company" data-sb-validations="required" />
+                                <div class="invalid-feedback" data-sb-feedback="age:required">A company is required</div>
+                            </div>
+                            <div class="form-group">
+                              <br>
+                                <!-- Sex input-->
+                                  <label for="gender" style='color:white'>Choose a gender:</label>
+                                  <select id="gender" name="gender">
+                                    <option value="Male">Male</option>
+                                    <option value="Female">Female</option>
+                                    <option value="Other">Other</option>
+                                <div class="invalid-feedback" data-sb-feedback="sex:required">A sex is required</div>
+                              </select>
+                           </div>
+                              <div class="form-group">
+                              <br>
+                                <!-- Race input-->
+                                  <label for="race" style='color:white'>Choose a race:</label>
+                                  <select id="race" name="race">
+                                    <option value="Asian">Asian</option>
+                                    <option value="White">White</option>
+                                    <option value="Black">Black</option>
+                                    <option value="Hispanic">Hispanic</option>
+                                    <option value="Two or More">Two or More</option>
+                                <div class="invalid-feedback" data-sb-feedback="race:required">A race is required</div>
+                                </select>
+                                
+                            <div class="form-group">
+                              <br>
+                                <!-- Title input-->
+                                  <label for="title" style='color:white'>Choose a job title:</label>
+                                  <select id="title" name="title">
+                                    <option value="Software Engineer">Software Engineer</option>
+                                    <option value="Software Engineering Manager">Software Engineering Manager</option>
+                                    <option value="Hardware Engineer">Hardware Engineer</option>
+                                    <option value="Product Designer">Product Designer</option>
+                                    <option value="Management Consultant">Management Consultant</option>
+                                    <option value="Product Manager">Product Manager</option>
+                                    <option value="Solution Architect">Solution Architect</option>
+                                    <option value="Sales">Sales</option>
+                                    <option value="Technical Program Manager">Technical Program Manager</option>
+                                    <option value="Data Scientist">Data Scientist</option>
+                                    <option value="Recruiter">Recruiter</option>
+                                    <option value="Mechanical Engineer">Mechanical Engineer</option>
+                                    <option value="Business Analyst">Business Analyst</option>
+                                    <option value="Human Resources">Human Resources</option>
+                                    <option value="Marketing">Marketing</option>
+                                  </select>
+                              <br>
+                            </div>
+                            <div class="form-group">
+                              <br>
+                                <!-- yearsofexperience input-->
+                                <input class="form-control" id="experience" name ="experience" type="text" placeholder="Enter your years of experience" data-sb-validations="required" />
+                                <div class="invalid-feedback" data-sb-feedback="experience:required">A number is required</div>
+                              <br>
+                            </div>
+                          <div class="form-group">
+                              <br>
+                                <!-- Education input-->
+                                  <label for="education" style='color:white'>Choose your education level:</label>
+                                  <select id="education" name="education">
+                                    <option value="Masters">Masters</option>
+                                    <option value="Bachelors">Bachelors</option>
+                                    <option value="Doctorate">Doctorate</option>
+                                    <option value="High School">High School</option>
+                                    <option value="Some College">Some College</option>
+                                <div class="invalid-feedback" data-sb-feedback="education:required">A education is required</div>
+                                </select>
+                            </div>
+                          <div class="form-group">
+                              <br>
+                                <!-- State input-->
+                                <input class="form-control" id="state" name ="state" type="text" placeholder="Enter your state" data-sb-validations="required" />
+                                <div class="invalid-feedback" data-sb-feedback="state:required">A state is required</div>
+                              <br>
+                             
+                                    
+                              <br>
+                              <!-- Submit Button-->
+                </select>              <div class="text-center"><input type="submit" value="Submit"><!--<button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Send Data</button>--></div>
+                              <!--Output-->
+                              <h1 style="color:White;">
+                                {{var}}
+                              </h1>
+                          </div>
+                          </div>
+                        </div>
+                </form>
         <!-- Footer-->
         <footer class="footer py-4">
             <div class="container">

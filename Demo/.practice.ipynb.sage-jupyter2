@@ -1,0 +1,4 @@
+{"backend_state":"running","connection_file":"/projects/0bcf82e6-7441-4432-a339-19b67c22cc5c/.local/share/jupyter/runtime/kernel-18a78cb5-8cb1-44b8-b6c6-6b79218db16d.json","kernel":"ds_env","kernel_error":"","kernel_state":"idle","trust":true,"type":"settings"}
+{"end":1659646475029,"exec_count":1,"id":"dd8689","input":"import pandas as pd\nimport numpy as np","kernel":"ds_env","pos":0,"start":1659646474748,"state":"done","type":"cell"}
+{"id":"86466a","input":"#print out all multiples of 3 from 3 to 30 using a for loop","pos":1,"type":"cell"}
+{"last_load":1659646451238,"type":"file"}

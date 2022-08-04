@@ -81,5 +81,5 @@
 {"cell_type":"markdown","id":"da5d9f","input":"Do you remember how to fit a model? What parts of our data do we fit/train on? You can go look at the section above for inspiration.","metadata":{"id":"Bk4rua0er_QF"},"pos":58,"type":"cell"}
 {"cell_type":"markdown","id":"ed724b","input":"Amazing, now try changing your kernel and seeing how your results change. You can research what kernels are available here: https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html. If your interested in more ML with SKLearn you should get used to pages like these!","metadata":{"id":"6AyqrZd9v9BR"},"pos":66,"type":"cell"}
 {"cell_type":"raw","id":"6c641a","input":"#Drop the 'diagnosis' column from your dataframe. Remember to use inplace if you are changing the dataframe itself!\ndrop_col2 = ['diagnosis']\nbreast_cancer.drop(drop_col2, axis=1, inplace=True)\nbreast_cancer.head(1)","metadata":{"id":"_e-rGtPu5VIL"},"pos":24,"type":"cell"}
-{"id":0,"time":1658944592345,"type":"user"}
-{"last_load":1658944592290,"type":"file"}
+{"id":0,"time":1659646219803,"type":"user"}
+{"last_load":1659646219869,"type":"file"}
